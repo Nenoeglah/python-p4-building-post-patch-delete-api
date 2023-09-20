@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 
 from flask import Flask, request, make_response
@@ -17,7 +18,7 @@ db.init_app(app)
 
 @app.route('/')
 def index():
-    return "Index for Game/Review/User API"
+    return "Game Review"
 
 @app.route('/games')
 def games():
